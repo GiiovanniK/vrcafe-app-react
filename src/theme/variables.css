@@ -1,6 +1,34 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../public/assets/fonts/Tomorrow/Tomorrow-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../../public/assets/fonts/Tomorrow/Tomorrow-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../../public/assets/fonts/Tomorrow/Tomorrow-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../../public/assets/fonts/Tomorrow/Tomorrow-BoldItalic.ttf');
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
