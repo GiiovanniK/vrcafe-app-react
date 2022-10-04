@@ -1,18 +1,24 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Tab1.css';
+import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon } from "@ionic/react";
+import { personCircleOutline, qrCodeOutline } from "ionicons/icons";
+import "./Tab1.css";
+import "../MainTabs";
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
+            <IonButtons slot="start">
+              <IonButton>
+                <IonIcon icon={personCircleOutline} />
+              </IonButton>
+            </IonButtons>
+            <IonButtons slot="end">
+              <IonButton>
+                <IonIcon icon={qrCodeOutline} />
+              </IonButton>
+            </IonButtons>
           </IonToolbar>
         </IonHeader>
       </IonContent>

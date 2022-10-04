@@ -24,14 +24,19 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import Tab1 from './pages/Tab1';
+import Tab2 from './pages/Tab2';
+import Tab3 from './pages/Tab3';
 
 setupIonicReact();
 
 const App: React.FC = () => (
     <IonApp>
       <IonReactRouter>
-        <Route path="/onboarding" component={Onboarding} exact={true} />
-        {/* <Route path="/" component={isLoggedIn ? MainTabs : Login} /> */}
+        <Route path="/tab1" component={Tab1} exact={true} />
+        <Route path="/tab2" component={Tab2} exact={true} />
+        <Route path="/tab3" component={Tab3} exact={true} />
+        <Route path="/" component={Onboarding} exact={true} />
       </IonReactRouter>
     </IonApp>
   );

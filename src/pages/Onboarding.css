@@ -1,161 +1,178 @@
 :root {
-    --ion-toolbar-height: 56px;
+  --ion-toolbar-height: 56px;
 }
 
 /* VRcafe theme */
 .ion-color-vrcafe-main {
-    --ion-color-base: var(--ion-color-vrcafe-main);
-    --ion-color-base-rgb: var(--ion-color-vrcafe-main-rgb);
-    --ion-color-contrast: var(--ion-color-vrcafe-main-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vrcafe-main-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vrcafe-main-shade);
-    --ion-color-tint: var(--ion-color-vrcafe-main-tint);
+  --ion-color-base: var(--ion-color-vrcafe-main);
+  --ion-color-base-rgb: var(--ion-color-vrcafe-main-rgb);
+  --ion-color-contrast: var(--ion-color-vrcafe-main-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vrcafe-main-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vrcafe-main-shade);
+  --ion-color-tint: var(--ion-color-vrcafe-main-tint);
 }
-  
+
 .ion-color-vrcafe-secondary {
-    --ion-color-base: var(--ion-color-vrcafe-secondary);
-    --ion-color-base-rgb: var(--ion-color-vrcafe-secondary-rgb);
-    --ion-color-contrast: var(--ion-color-vrcafe-secondary-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vrcafe-secondary-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vrcafe-secondary-shade);
-    --ion-color-tint: var(--ion-color-vrcafe-secondary-tint);
+  --ion-color-base: var(--ion-color-vrcafe-secondary);
+  --ion-color-base-rgb: var(--ion-color-vrcafe-secondary-rgb);
+  --ion-color-contrast: var(--ion-color-vrcafe-secondary-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vrcafe-secondary-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vrcafe-secondary-shade);
+  --ion-color-tint: var(--ion-color-vrcafe-secondary-tint);
 }
 
 .ion-color-vrcafe-tertiary {
-    --ion-color-base: var(--ion-color-vrcafe-tertiary);
-    --ion-color-base-rgb: var(--ion-color-vrcafe-tertiary-rgb);
-    --ion-color-contrast: var(--ion-color-vrcafe-tertiary-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vrcafe-tertiary-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vrcafe-tertiary-shade);
-    --ion-color-tint: var(--ion-color-vrcafe-tertiary-tint);
+  --ion-color-base: var(--ion-color-vrcafe-tertiary);
+  --ion-color-base-rgb: var(--ion-color-vrcafe-tertiary-rgb);
+  --ion-color-contrast: var(--ion-color-vrcafe-tertiary-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vrcafe-tertiary-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vrcafe-tertiary-shade);
+  --ion-color-tint: var(--ion-color-vrcafe-tertiary-tint);
 }
 
 .ion-color-vrcafe-light {
-    --ion-color-base: var(--ion-color-vrcafe-light);
-    --ion-color-base-rgb: var(--ion-color-vrcafe-light-rgb);
-    --ion-color-contrast: var(--ion-color-vrcafe-light-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vrcafe-light-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vrcafe-light-shade);
-    --ion-color-tint: var(--ion-color-vrcafe-light-tint);
+  --ion-color-base: var(--ion-color-vrcafe-light);
+  --ion-color-base-rgb: var(--ion-color-vrcafe-light-rgb);
+  --ion-color-contrast: var(--ion-color-vrcafe-light-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vrcafe-light-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vrcafe-light-shade);
+  --ion-color-tint: var(--ion-color-vrcafe-light-tint);
 }
 
 .ion-color-vrcafe-dark {
-    --ion-color-base: var(--ion-color-vrcafe-dark);
-    --ion-color-base-rgb: var(--ion-color-vrcafe-dark-rgb);
-    --ion-color-contrast: var(--ion-color-vrcafe-dark-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vrcafe-dark-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vrcafe-dark-shade);
-    --ion-color-tint: var(--ion-color-vrcafe-dark-tint);
+  --ion-color-base: var(--ion-color-vrcafe-dark);
+  --ion-color-base-rgb: var(--ion-color-vrcafe-dark-rgb);
+  --ion-color-contrast: var(--ion-color-vrcafe-dark-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vrcafe-dark-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vrcafe-dark-shade);
+  --ion-color-tint: var(--ion-color-vrcafe-dark-tint);
 }
 
 .ion-color-vrcafe-white {
-    --ion-color-base: var(--ion-color-vrcafe-white);
-    --ion-color-base-rgb: var(--ion-color-vrcafe-white-rgb);
-    --ion-color-contrast: var(--ion-color-vrcafe-white-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-vrcafe-white-contrast-rgb);
-    --ion-color-shade: var(--ion-color-vrcafe-white-shade);
-    --ion-color-tint: var(--ion-color-vrcafe-white-tint);
+  --ion-color-base: var(--ion-color-vrcafe-white);
+  --ion-color-base-rgb: var(--ion-color-vrcafe-white-rgb);
+  --ion-color-contrast: var(--ion-color-vrcafe-white-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vrcafe-white-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vrcafe-white-shade);
+  --ion-color-tint: var(--ion-color-vrcafe-white-tint);
 }
 
 * {
-    font-family: 'Tomorrow', sans-serif;
+  font-family: "Tomorrow", sans-serif;
 }
 
 ion-content {
-    --ion-background-color: #640E8E;
+  --ion-background-color: #640e8e;
 }
 
 ion-slide {
-    display: block;
+  display: block;
 }
 
 ion-fab {
-    left: unset;
-    margin-left: unset;
-    margin-inline-start: unset;
-    bottom: 50px;
-}
-
-.onboardingSkip {
-    text-transform: lowercase;
-    margin-right: 1em;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    color: #FFFFFF;
-}
-
-h1 {
-    font-weight: bold !important;
-}
-
-p {
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.slide1, .slide2, .slide3 {
-    margin: 1em;
-}
-
-.slide3 h1 {
-    margin-bottom: 1em;
-}
-
-.swiper {
-    height: calc(100% - var(--ion-toolbar-height));    
+  left: unset;
+  margin-left: unset;
+  margin-inline-start: unset;
+  bottom: 50px;
 }
 
 ion-toolbar {
-    --min-height: var(--ion-toolbar-height);
+  --color: white;
+  --border-style: none;
+}
+
+.onboardingSkip {
+  text-transform: lowercase;
+  margin-right: 1em;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: bold !important;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.slide1,
+.slide2 {
+  margin: 0 1em 0 1em;
+}
+
+.slide3 {
+  margin: 0 2em 0 2em;
+}
+
+.slide1,
+.slide2 {
+  text-align: center;
+}
+
+.slide3 h1 {
+  margin-bottom: 1em;
+}
+
+.swiper {
+  height: calc(100% - var(--ion-toolbar-height));
 }
 
 .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 .swiper-pagination-bullet {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 
 .swiper-pagination-bullet-active {
-    /* background: #000000 !important; */
-    background: #37F2A9 !important;
-}
-
-.swiper-slide {
-    text-align: center;
+  /* background: #000000 !important; */
+  background: #37f2a9 !important;
 }
 
 form input {
-    background-color: #FFFFFF !important;
-    color: #000000 !important;
-    border-radius: 10px !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 10px !important;
+  margin-top: 0.5em;
 }
 
 .onboarding-form {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 input::placeholder {
-    color: #000000 !important;
-    font-weight: bold !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  text-align: center;
 }
 
 .onboarding-form-submit {
-    color: #000000;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: #D9D9D9;
-    border-radius: 15px;
-    font-size: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  font-size: 14px;
+  margin-top: 1em;
 }
 
 .slideContent {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
 }
 
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+::-webkit-datetime-edit { padding-left: 1em; }
+
+::-webkit-calendar-picker-indicator { padding-right: 1em; }

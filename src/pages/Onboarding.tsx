@@ -1,14 +1,4 @@
-import {
-  IonContent,
-  IonPage,
-  IonLabel,
-  IonInput,
-  IonButton,
-  IonHeader,
-  IonTitle,
-  IonButtons,
-  IonToolbar,
-} from "@ionic/react";
+import { IonContent, IonPage, IonLabel, IonInput, IonButton, IonHeader, IonTitle, IonButtons, IonToolbar } from "@ionic/react";
 
 import "./Onboarding.css";
 
@@ -53,17 +43,11 @@ const Onboarding: React.FC = () => {
         </IonHeader>
         <Swiper pagination={true} modules={[Pagination]}>
           <SwiperSlide>
-            <div className="slideContent">
-              <img
-                src="assets/images/LogoAnim.gif"
-                alt="Animation of the VRcafe logo"
-              ></img>
-              <div className="slide1">
+            <div className="slideContent slide1">
+              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"></img>
+              <div>
                 <h1>Welkom in de VRcafe app!</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
-                  congue pellentesque
-                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus congue pellentesque</p>
               </div>
               <div className="navigator">
                 <SlideNextButton />
@@ -71,17 +55,11 @@ const Onboarding: React.FC = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slideContent">
-              <img
-                src="assets/images/LogoAnim.gif"
-                alt="Animation of the VRcafe logo"
-              ></img>
-              <div className="slide2">
+            <div className="slideContent slide2">
+              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"></img>
+              <div>
                 <h1>Scan de QR code</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
-                  congue pellentesque
-                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus congue pellentesque</p>
               </div>
               <div className="navigator">
                 <SlideNextButton />
@@ -89,63 +67,33 @@ const Onboarding: React.FC = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <form className="slideContent">
+            <form className="slideContent slide3">
               <div className="onboarding-form">
                 <IonLabel>Emailadres</IonLabel>
-                <IonInput
-                  placeholder="Emailadres"
-                  type="email"
-                  name="emailadress"
-                ></IonInput>
+                <IonInput placeholder="Emailadres" type="email" name="emailadress"></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Wachtwoord</IonLabel>
-                <IonInput
-                  placeholder="Wachtwoord"
-                  type="password"
-                  name="pass"
-                ></IonInput>
+                <IonInput placeholder="Wachtwoord" type="password" name="pass"></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Herhaal wachtwoord</IonLabel>
-                <IonInput
-                  placeholder="Herhaal wachtwoord"
-                  type="password"
-                  name="passRepeat"
-                ></IonInput>
+                <IonInput placeholder="Herhaal wachtwoord" type="password" name="passRepeat"></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Voornaam</IonLabel>
-                <IonInput
-                  placeholder="Voornaam"
-                  type="text"
-                  name="firstName"
-                  autocapitalize="on"
-                ></IonInput>
+                <IonInput placeholder="Voornaam" type="text" name="firstName" autocapitalize="on"></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Achternaam</IonLabel>
-                <IonInput
-                  placeholder="Achternaam"
-                  type="text"
-                  name="lastName"
-                  autocapitalize="on"
-                ></IonInput>
+                <IonInput placeholder="Achternaam" type="text" name="lastName" autocapitalize="on"></IonInput>
               </div>
               <div>
                 <IonLabel>Geboortedatum</IonLabel>
-                <IonInput
-                  placeholder="Geboortedatum"
-                  type="date"
-                  name="birthDate"
-                ></IonInput>
+                <IonInput type="date" name="birthDate"></IonInput>
               </div>
-              <IonButton
-                type="submit"
-                fill="clear"
-                className="onboarding-form-submit"
-              >
-                Registeren
+              <IonButton type="submit" fill="clear" className="onboarding-form-submit">
+                Registreren
               </IonButton>
             </form>
           </SwiperSlide>
