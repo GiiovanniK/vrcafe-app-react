@@ -102,6 +102,55 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* ! VRcafe ! */
+    /* VRcafe main */
+    --ion-color-vrcafe-main: #640E8E;
+    --ion-color-vrcafe-main-rgb: 100,14,142;
+    --ion-color-vrcafe-main-contrast: #ffffff;
+    --ion-color-vrcafe-main-contrast-rgb: 255,255,255;
+    --ion-color-vrcafe-main-shade: #580c7d;
+    --ion-color-vrcafe-main-tint: #742699;
+
+    /* VRcafe secondary */
+    --ion-color-vrcafe-secondary: #37F2A9;
+    --ion-color-vrcafe-secondary-rgb: 55,242,169;
+    --ion-color-vrcafe-secondary-contrast: #000000;
+    --ion-color-vrcafe-secondary-contrast-rgb: 0,0,0;
+    --ion-color-vrcafe-secondary-shade: #30d595;
+    --ion-color-vrcafe-secondary-tint: #4bf3b2;
+
+    /* VRcafe tertiary */
+    --ion-color-vrcafe-tertiary: #FD3D81;
+    --ion-color-vrcafe-tertiary-rgb: 253,61,129;
+    --ion-color-vrcafe-tertiary-contrast: #ffffff;
+    --ion-color-vrcafe-tertiary-contrast-rgb: 255,255,255;
+    --ion-color-vrcafe-tertiary-shade: #df3672;
+    --ion-color-vrcafe-tertiary-tint: #fd508e;
+
+    /* VRcafe light */
+    --ion-color-vrcafe-light: #D9D9D9;
+    --ion-color-vrcafe-light-rgb: 217,217,217;
+    --ion-color-vrcafe-light-contrast: #000000;
+    --ion-color-vrcafe-light-contrast-rgb: 0,0,0;
+    --ion-color-vrcafe-light-shade: #bfbfbf;
+    --ion-color-vrcafe-light-tint: #dddddd;
+
+    /* VRcafe dark */
+    --ion-color-vrcafe-dark: #000000;
+    --ion-color-vrcafe-dark-rgb: 0,0,0;
+    --ion-color-vrcafe-dark-contrast: #ffffff;
+    --ion-color-vrcafe-dark-contrast-rgb: 255,255,255;
+    --ion-color-vrcafe-dark-shade: #000000;
+    --ion-color-vrcafe-dark-tint: #1a1a1a;
+
+    /* VRcafe white */
+    --ion-color-vrcafe-white: #FFFFFF;
+    --ion-color-vrcafe-white-rgb: 255,255,255;
+    --ion-color-vrcafe-white-contrast: #000000;
+    --ion-color-vrcafe-white-contrast-rgb: 0,0,0;
+    --ion-color-vrcafe-white-shade: #e0e0e0;
+    --ion-color-vrcafe-white-tint: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -44,7 +44,7 @@ const Onboarding: React.FC = () => {
     <IonPage>
       <IonContent>
         <IonHeader>
-          <IonToolbar>
+          <IonToolbar color="vrcafe-main">
             <IonTitle slot="primary"></IonTitle>
             <IonButtons slot="end">
               <IonButton>overslaan</IonButton>
