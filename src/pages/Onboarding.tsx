@@ -32,7 +32,7 @@ import "@ionic/react/css/display.css";
 const Onboarding: React.FC = () => {
   return (
     <IonPage>
-      <IonContent>
+      <IonContent fullscreen>
         <IonHeader>
           <IonToolbar color="vrcafe-main">
             <IonTitle slot="primary"></IonTitle>
@@ -70,27 +70,27 @@ const Onboarding: React.FC = () => {
             <form className="slideContent slide3">
               <div className="onboarding-form">
                 <IonLabel>Emailadres</IonLabel>
-                <IonInput placeholder="Emailadres" type="email" name="emailadress"></IonInput>
+                <IonInput placeholder="Emailadres" type="email" name="emailadress" required></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Wachtwoord</IonLabel>
-                <IonInput placeholder="Wachtwoord" type="password" name="pass"></IonInput>
+                <IonInput placeholder="Wachtwoord" type="password" name="pass" required></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Herhaal wachtwoord</IonLabel>
-                <IonInput placeholder="Herhaal wachtwoord" type="password" name="passRepeat"></IonInput>
+                <IonInput placeholder="Herhaal wachtwoord" type="password" name="passRepeat" required></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Voornaam</IonLabel>
-                <IonInput placeholder="Voornaam" type="text" name="firstName" autocapitalize="on"></IonInput>
+                <IonInput placeholder="Voornaam" type="text" name="firstName" autocapitalize="on" required></IonInput>
               </div>
               <div className="onboarding-form">
                 <IonLabel>Achternaam</IonLabel>
-                <IonInput placeholder="Achternaam" type="text" name="lastName" autocapitalize="on"></IonInput>
+                <IonInput placeholder="Achternaam" type="text" name="lastName" autocapitalize="on" required></IonInput>
               </div>
               <div>
                 <IonLabel>Geboortedatum</IonLabel>
-                <IonInput type="date" name="birthDate"></IonInput>
+                <IonInput type="date" name="birthDate" required></IonInput>
               </div>
               <IonButton type="submit" fill="clear" className="onboarding-form-submit">
                 Registreren

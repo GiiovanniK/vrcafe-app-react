@@ -79,6 +79,7 @@ ion-fab {
 ion-toolbar {
   --color: white;
   --border-style: none;
+  padding: 0 1em 0 1em;
 }
 
 .onboardingSkip {
@@ -138,8 +139,8 @@ p {
 form input {
   background-color: #ffffff !important;
   color: #000000 !important;
-  border-radius: 10px !important;
   margin-top: 0.5em;
+  text-indent: 15px !important;
 }
 
 .onboarding-form {
@@ -149,7 +150,7 @@ form input {
 input::placeholder {
   color: #000000 !important;
   font-weight: bold !important;
-  text-align: center;
+  text-align: left;
 }
 
 .onboarding-form-submit {
@@ -173,6 +174,6 @@ input::placeholder {
   filter: invert(1);
 }
 
-::-webkit-datetime-edit { padding-left: 1em; }
+::-webkit-datetime-edit { text-indent: 7px; }
 
 ::-webkit-calendar-picker-indicator { padding-right: 1em; }
