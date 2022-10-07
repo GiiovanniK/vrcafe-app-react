@@ -3,59 +3,7 @@
 }
 
 /* VRcafe theme */
-.ion-color-vrcafe-main {
-  --ion-color-base: var(--ion-color-vrcafe-main);
-  --ion-color-base-rgb: var(--ion-color-vrcafe-main-rgb);
-  --ion-color-contrast: var(--ion-color-vrcafe-main-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-vrcafe-main-contrast-rgb);
-  --ion-color-shade: var(--ion-color-vrcafe-main-shade);
-  --ion-color-tint: var(--ion-color-vrcafe-main-tint);
-}
 
-.ion-color-vrcafe-secondary {
-  --ion-color-base: var(--ion-color-vrcafe-secondary);
-  --ion-color-base-rgb: var(--ion-color-vrcafe-secondary-rgb);
-  --ion-color-contrast: var(--ion-color-vrcafe-secondary-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-vrcafe-secondary-contrast-rgb);
-  --ion-color-shade: var(--ion-color-vrcafe-secondary-shade);
-  --ion-color-tint: var(--ion-color-vrcafe-secondary-tint);
-}
-
-.ion-color-vrcafe-tertiary {
-  --ion-color-base: var(--ion-color-vrcafe-tertiary);
-  --ion-color-base-rgb: var(--ion-color-vrcafe-tertiary-rgb);
-  --ion-color-contrast: var(--ion-color-vrcafe-tertiary-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-vrcafe-tertiary-contrast-rgb);
-  --ion-color-shade: var(--ion-color-vrcafe-tertiary-shade);
-  --ion-color-tint: var(--ion-color-vrcafe-tertiary-tint);
-}
-
-.ion-color-vrcafe-light {
-  --ion-color-base: var(--ion-color-vrcafe-light);
-  --ion-color-base-rgb: var(--ion-color-vrcafe-light-rgb);
-  --ion-color-contrast: var(--ion-color-vrcafe-light-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-vrcafe-light-contrast-rgb);
-  --ion-color-shade: var(--ion-color-vrcafe-light-shade);
-  --ion-color-tint: var(--ion-color-vrcafe-light-tint);
-}
-
-.ion-color-vrcafe-dark {
-  --ion-color-base: var(--ion-color-vrcafe-dark);
-  --ion-color-base-rgb: var(--ion-color-vrcafe-dark-rgb);
-  --ion-color-contrast: var(--ion-color-vrcafe-dark-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-vrcafe-dark-contrast-rgb);
-  --ion-color-shade: var(--ion-color-vrcafe-dark-shade);
-  --ion-color-tint: var(--ion-color-vrcafe-dark-tint);
-}
-
-.ion-color-vrcafe-white {
-  --ion-color-base: var(--ion-color-vrcafe-white);
-  --ion-color-base-rgb: var(--ion-color-vrcafe-white-rgb);
-  --ion-color-contrast: var(--ion-color-vrcafe-white-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-vrcafe-white-contrast-rgb);
-  --ion-color-shade: var(--ion-color-vrcafe-white-shade);
-  --ion-color-tint: var(--ion-color-vrcafe-white-tint);
-}
 
 * {
   font-family: "Tomorrow", sans-serif;
@@ -76,21 +24,6 @@ ion-fab {
   bottom: 50px;
 }
 
-ion-toolbar {
-  --color: white;
-  --border-style: none;
-  padding: 0 1em 0 1em;
-}
-
-.onboardingSkip {
-  text-transform: lowercase;
-  margin-right: 1em;
-  position: absolute;
-  top: 20px;
-  right: 0;
-  color: #ffffff;
-}
-
 h1 {
   font-weight: bold !important;
 }
@@ -102,20 +35,8 @@ p {
 
 .slide1,
 .slide2 {
-  margin: 0 1em 0 1em;
-}
-
-.slide3 {
-  margin: 0 2em 0 2em;
-}
-
-.slide1,
-.slide2 {
   text-align: center;
-}
-
-.slide3 h1 {
-  margin-bottom: 1em;
+  margin: 0 1em 0 1em;
 }
 
 .swiper {
@@ -136,44 +57,9 @@ p {
   background: #37f2a9 !important;
 }
 
-form input {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  margin-top: 0.5em;
-  text-indent: 15px !important;
-}
-
-.onboarding-form {
-  margin-bottom: 1em;
-}
-
-input::placeholder {
-  color: #000000 !important;
-  font-weight: bold !important;
-  text-align: left;
-}
-
-.onboarding-form-submit {
-  color: #000000;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: #d9d9d9;
-  border-radius: 15px;
-  font-size: 14px;
-  margin-top: 1em;
-}
-
 .slideContent {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
 }
-
-::-webkit-calendar-picker-indicator {
-  filter: invert(1);
-}
-
-::-webkit-datetime-edit { text-indent: 7px; }
-
-::-webkit-calendar-picker-indicator { padding-right: 1em; }

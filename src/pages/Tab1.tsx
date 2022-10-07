@@ -9,16 +9,7 @@ const Tab1: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonButtons slot="start">
-              <IonButton>
-                <IonIcon icon={personCircleOutline} />
-              </IonButton>
-            </IonButtons>
-            <IonButtons slot="end">
-              <IonButton>
-                <IonIcon icon={qrCodeOutline} />
-              </IonButton>
-            </IonButtons>
+
           </IonToolbar>
         </IonHeader>
       </IonContent>

@@ -33,7 +33,7 @@ const Onboarding: React.FC = () => {
   return (
     <IonPage>
       <IonContent fullscreen>
-        <IonHeader>
+        <IonHeader class="ion-no-border">
           <IonToolbar color="vrcafe-main">
             <IonTitle slot="primary"></IonTitle>
             <IonButtons slot="end">
