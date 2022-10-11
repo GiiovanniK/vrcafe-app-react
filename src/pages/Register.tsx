@@ -9,7 +9,7 @@ const Register: React.FC = () => {
         <IonHeader>
           <IonToolbar color="vrcafe-main">
             <div className="logo">
-              <img src="assets/images/logo.png" alt="VRcafe logo"></img>
+              <img src="assets/images/logo.png" alt="VRcafe logo"/>
             </div>
           </IonToolbar>
         </IonHeader>

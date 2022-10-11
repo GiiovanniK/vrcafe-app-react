@@ -44,7 +44,7 @@ const Onboarding: React.FC = () => {
         <Swiper pagination={true} modules={[Pagination]}>
           <SwiperSlide>
             <div className="slideContent slide1">
-              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"></img>
+              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"/>
               <div>
                 <h1>Welkom in de VRcafe app!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus congue pellentesque</p>
@@ -56,7 +56,7 @@ const Onboarding: React.FC = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="slideContent slide2">
-              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"></img>
+              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"/>
               <div>
                 <h1>Scan de QR code</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus congue pellentesque</p>

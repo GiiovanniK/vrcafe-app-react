@@ -1,0 +1,40 @@
+.badges {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    justify-content: space-around;
+}
+
+.badges div {
+    border: 1px solid black;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.achievements div {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.openMore h2 {
+    margin-bottom: 18px;
+}
+
+.openMore ion-icon{
+    height: 2em;
+    width: 2em;
+    margin-left: .5em;
+}
+
+.m-1 {
+    margin: 1em;
+}

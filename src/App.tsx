@@ -30,6 +30,7 @@ import Tab3 from './pages/Tab3';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import Profile from './pages/Profile';
 
 setupIonicReact();
 
@@ -43,6 +44,7 @@ const App: React.FC = () => (
         <Route path="/register" component={Register} exact={true} />
         <Route path="/login" component={Login} exact={true} />
         <Route path="/onboarding" component={Onboarding} exact={true} />
+        <Route path="/profile" component={Profile} exact={true} />
       </IonReactRouter>
     </IonApp>
   );

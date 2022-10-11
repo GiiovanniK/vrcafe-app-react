@@ -1,0 +1,30 @@
+.modalImage {
+  border-radius: 50%;
+  height: 22.5%;
+  width: 50%;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+.modalButtons ion-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.modalButtons a {
+    text-decoration: none;
+    color: white;
+}
+
+.lineHeight {
+    line-height: .5em;
+}
+
+.bold {
+    font-weight: bold;
+}
