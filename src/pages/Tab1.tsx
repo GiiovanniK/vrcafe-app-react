@@ -6,12 +6,13 @@ import "../MainTabs";
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
+      <IonHeader collapse="condense">
+        <IonToolbar>
 
-          </IonToolbar>
-        </IonHeader>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent fullscreen>
+        
       </IonContent>
     </IonPage>
   );

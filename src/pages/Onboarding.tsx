@@ -32,19 +32,19 @@ import "@ionic/react/css/display.css";
 const Onboarding: React.FC = () => {
   return (
     <IonPage>
+      <IonHeader class="ion-no-border">
+        <IonToolbar color="vrcafe-main">
+          <IonTitle slot="primary"></IonTitle>
+          <IonButtons slot="end">
+            <IonButton>overslaan</IonButton>
+          </IonButtons>
+        </IonToolbar>
+      </IonHeader>
       <IonContent fullscreen>
-        <IonHeader class="ion-no-border">
-          <IonToolbar color="vrcafe-main">
-            <IonTitle slot="primary"></IonTitle>
-            <IonButtons slot="end">
-              <IonButton>overslaan</IonButton>
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
         <Swiper pagination={true} modules={[Pagination]}>
           <SwiperSlide>
             <div className="slideContent slide1">
-              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"/>
+              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo" />
               <div>
                 <h1>Welkom in de VRcafe app!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus congue pellentesque</p>
@@ -56,7 +56,7 @@ const Onboarding: React.FC = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="slideContent slide2">
-              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo"/>
+              <img src="assets/images/LogoAnim.gif" alt="Animation of the VRcafe logo" />
               <div>
                 <h1>Scan de QR code</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus congue pellentesque</p>

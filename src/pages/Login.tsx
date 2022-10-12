@@ -5,16 +5,16 @@ import "./Login.css";
 const Login: React.FC = () => {
   return (
     <IonPage>
+      <IonHeader>
+        <IonToolbar color="vrcafe-main">
+          <div className="logo">
+            <img src="assets/images/logo.png" alt="VRcafe logo" />
+          </div>
+        </IonToolbar>
+      </IonHeader>
       <IonContent fullscreen color="vrcafe-white">
-        <IonHeader>
-          <IonToolbar color="vrcafe-main">
-            <div className="logo">
-              <img src="assets/images/logo.png" alt="VRcafe logo"/>
-            </div>
-          </IonToolbar>
-        </IonHeader>
         <form className="login">
-        <h1 className="formHeader">Inloggen</h1>
+          <h1 className="formHeader">Inloggen</h1>
           <div className="login-form">
             <IonLabel>Emailadres</IonLabel>
             <IonInput placeholder="Emailadres" type="email" name="emailadress" required></IonInput>

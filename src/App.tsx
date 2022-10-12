@@ -31,6 +31,7 @@ import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
+import Edit from './pages/Edit';
 
 setupIonicReact();
 
@@ -45,6 +46,7 @@ const App: React.FC = () => (
         <Route path="/login" component={Login} exact={true} />
         <Route path="/onboarding" component={Onboarding} exact={true} />
         <Route path="/profile" component={Profile} exact={true} />
+        <Route path="/edit" component={Edit} exact={true} />
       </IonReactRouter>
     </IonApp>
   );
