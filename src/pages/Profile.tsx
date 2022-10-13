@@ -1,7 +1,8 @@
-import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon, IonAvatar, IonImg } from "@ionic/react";
+import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon, IonAvatar, IonImg, IonFooter } from "@ionic/react";
 import { personCircleOutline, qrCodeOutline, peopleCircle, basket, pencilOutline, arrowForwardOutline } from "ionicons/icons";
 import "./Profile.css";
-import "../MainTabs";
+import "../components/MainTabs";
+import MainTabs from "../components/MainTabs";
 
 const Profile: React.FC = () => {
   return (
@@ -88,6 +89,7 @@ const Profile: React.FC = () => {
           </div>
         </div>
       </IonContent>
+      <MainTabs/>
     </IonPage>
   );
 };
