@@ -19,6 +19,23 @@
     line-height: .5em;
 }
 
+.qrCodeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 25%;
+}
+
+.qrCode {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  background-color: #d9d9d9;
+  justify-content: flex-end;
+}
+
 .bold {
     font-weight: bold;
 }

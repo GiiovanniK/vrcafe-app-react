@@ -51,6 +51,10 @@ function Home() {
                 </a>
               </div>
             </div>
+            <div className="qrCodeContainer ion-margin-top">
+              <div className="qrCode"> 
+              </div>
+            </div>
           </IonContent>
         </IonModal>
       </IonContent>
