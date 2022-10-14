@@ -24,9 +24,6 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
@@ -38,9 +35,6 @@ setupIonicReact();
 const App: React.FC = () => (
     <IonApp>
       <IonReactRouter>
-        <Route path="/tab1" component={Tab1} exact={true} />
-        <Route path="/tab2" component={Tab2} exact={true} />
-        <Route path="/tab3" component={Tab3} exact={true} />
         <Route path="/" component={Home} exact={true} />
         <Route path="/register" component={Register} exact={true} />
         <Route path="/login" component={Login} exact={true} />

@@ -1,7 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon, IonLabel, IonInput, IonItem } from "@ionic/react";
 import { personCircleOutline, qrCodeOutline, pencilOutline } from "ionicons/icons";
 import "./Edit.css";
-import "../components/MainTabs";
+import MainTabs from "../components/MainTabs";
 
 const Edit: React.FC = () => {
   return (
@@ -53,6 +53,7 @@ const Edit: React.FC = () => {
           </IonButton>
         </form>
       </IonContent>
+      <MainTabs/>
     </IonPage>
   );
 };

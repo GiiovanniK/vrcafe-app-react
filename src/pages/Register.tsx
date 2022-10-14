@@ -1,6 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonLabel, IonButton, IonToolbar, IonInput, IonCheckbox, IonItem, IonItemSliding } from "@ionic/react";
 import {} from "ionicons/icons";
 import "./Register.css";
+import MainTabs from "../components/MainTabs";
 
 const Register: React.FC = () => {
   return (
@@ -64,6 +65,7 @@ const Register: React.FC = () => {
           </div>
         </form>
       </IonContent>
+      <MainTabs/>
     </IonPage>
   );
 };

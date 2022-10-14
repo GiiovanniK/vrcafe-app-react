@@ -1,6 +1,8 @@
 import { IonContent, IonHeader, IonPage, IonLabel, IonButton, IonToolbar, IonInput } from "@ionic/react";
 import {} from "ionicons/icons";
 import "./Login.css";
+import MainTabs from "../components/MainTabs";
+
 
 const Login: React.FC = () => {
   return (
@@ -32,6 +34,7 @@ const Login: React.FC = () => {
           </div>
         </form>
       </IonContent>
+      <MainTabs/>
     </IonPage>
   );
 };

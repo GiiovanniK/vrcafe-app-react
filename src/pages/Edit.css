@@ -4,4 +4,12 @@ form {
 
 form ion-input {
     margin-bottom: 1em;
+    position: relative;
+}
+
+form ion-icon {
+    position: absolute;
+    top: 36px;
+    right: 7px;
+    width: 25px;
 }

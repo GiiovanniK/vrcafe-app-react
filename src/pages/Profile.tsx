@@ -1,7 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon, IonAvatar, IonImg, IonFooter } from "@ionic/react";
-import { personCircleOutline, qrCodeOutline, peopleCircle, basket, pencilOutline, arrowForwardOutline } from "ionicons/icons";
+import { personCircleOutline, qrCodeOutline, peopleCircle, basket, pencilOutline, arrowForwardOutline, camera } from "ionicons/icons";
 import "./Profile.css";
-import "../components/MainTabs";
 import MainTabs from "../components/MainTabs";
 
 const Profile: React.FC = () => {
@@ -26,13 +25,21 @@ const Profile: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <div className="center">
+          <div className="photoUploadContainer">
+            <div className="photoUpload">
+              <IonIcon icon={camera}></IonIcon>
+            </div>
+          </div>
           <IonAvatar class="modalImage ion-margin-top">
-            <IonImg src="https://i.pravatar.cc/300" />
+            <IonImg src="https://i.pravatar.cc/1000" />
           </IonAvatar>
         </div>
-        <div className="center lineHeight">
+        <div className="center lineHeight ion-margin-top">
           <p className="bold">Voornaam Achternaam</p>
           <p>dd/mm/jj</p>
+          <div className="xpProgress">
+            <p>Level XP - Rank </p>
+          </div>
         </div>
         <div className="modalButtons ion-margin-top lineHeight">
           <div>
@@ -54,7 +61,7 @@ const Profile: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="m-1">
+        <div className="ion-margin">
           <div className="flex openMore">
             <h2>Badges</h2>
             <IonIcon icon={arrowForwardOutline} />
@@ -71,7 +78,7 @@ const Profile: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="m-1">
+        <div className="ion-margin">
           <div className="flex openMore">
             <h2>Achievements</h2>
             <IonIcon icon={arrowForwardOutline} />
@@ -89,7 +96,7 @@ const Profile: React.FC = () => {
           </div>
         </div>
       </IonContent>
-      <MainTabs/>
+      <MainTabs />
     </IonPage>
   );
 };

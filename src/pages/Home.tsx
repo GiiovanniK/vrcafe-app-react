@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { IonContent, IonHeader, IonPage, IonIcon, IonButton, IonToolbar, IonButtons, IonModal, IonAvatar, IonImg } from "@ionic/react";
 import { basket, peopleCircle, personCircleOutline, qrCodeOutline } from "ionicons/icons";
 import "./Home.css";
+import MainTabs from "../components/MainTabs";
 
 function Home() {
   const modal = useRef<HTMLIonModalElement>(null);
@@ -28,8 +29,8 @@ function Home() {
         <IonModal ref={modal} trigger="open-modal" initialBreakpoint={0.9} breakpoints={[0.9, 0.75, 0]}>
           <IonContent className="ion-padding">
             <div className="center">
-              <IonAvatar class="modalImage ion-margin-top">
-                <IonImg src="https://i.pravatar.cc/300?u=b" />
+              <IonAvatar class="ion-margin-top">
+                <IonImg src="https://i.pravatar.cc/1000" />
               </IonAvatar>
             </div>
             <div className="center lineHeight">
@@ -53,6 +54,7 @@ function Home() {
           </IonContent>
         </IonModal>
       </IonContent>
+      <MainTabs />
     </IonPage>
   );
 }
