@@ -27,6 +27,7 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding" color="vrcafe-white">
         <Modal/>
+        <h1>Goedemiddag, <br/> Voornaam</h1>
       </IonContent>
       <MainTabs />
     </IonPage>

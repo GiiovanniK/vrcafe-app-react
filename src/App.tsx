@@ -29,6 +29,7 @@ import Register from './pages/user/Register';
 import Login from './pages/user/Login';
 import Profile from './pages/profile/Profile';
 import Edit from './pages/profile/Edit';
+import Rewards from './pages/rewards/Rewards';
 
 setupIonicReact();
 
@@ -41,6 +42,7 @@ const App: React.FC = () => (
         <Route path="/onboarding" component={Onboarding} exact={true} />
         <Route path="/profile" component={Profile} exact={true} />
         <Route path="/edit" component={Edit} exact={true} />
+        <Route path="/rewards" component={Rewards} exact={true} />
       </IonReactRouter>
     </IonApp>
   );

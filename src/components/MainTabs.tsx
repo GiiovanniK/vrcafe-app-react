@@ -29,21 +29,17 @@ const MainTabs: React.FC = () => (
     <IonToolbar>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/rewards">
-            <Rewards />
-          </Route>
+          <Route exact path="/"></Route>
+          <Route exact path="/rewards"></Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="home" href="/">
             <IonIcon icon={home} />
-            <IonLabel>Home</IonLabel>
+            <IonLabel>home</IonLabel>
           </IonTabButton>
           <IonTabButton tab="rewards" href="/rewards">
             <IonIcon icon={gift} />
-            <IonLabel>Rewards</IonLabel>
+            <IonLabel>rewards</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
