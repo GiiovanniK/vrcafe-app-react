@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import { IonContent, IonHeader, IonPage, IonIcon, IonButton, IonToolbar, IonButtons, IonModal, IonAvatar, IonImg } from "@ionic/react";
 import { basket, peopleCircle, personCircleOutline, qrCodeOutline } from "ionicons/icons";
 import "./Home.css";
-import MainTabs from "../components/MainTabs";
-import Modal from "../components/Modal";
+import MainTabs from "../../components/MainTabs";
+import Modal from "../../components/modal/Modal";
 
 const Home: React.FC = () => {
   return (

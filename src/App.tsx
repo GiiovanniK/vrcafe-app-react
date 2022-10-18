@@ -4,7 +4,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Onboarding from './pages/Onboarding';
+import Onboarding from './pages/onboarding/Onboarding';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -24,11 +24,11 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import Home from './pages/Home';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import Profile from './pages/Profile';
-import Edit from './pages/Edit';
+import Home from './pages/home/Home';
+import Register from './pages/user/Register';
+import Login from './pages/user/Login';
+import Profile from './pages/profile/Profile';
+import Edit from './pages/profile/Edit';
 
 setupIonicReact();
 

@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
-import SlideNextButton from "../components/Slider";
+import SlideNextButton from "../../components/slider/Slider";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";

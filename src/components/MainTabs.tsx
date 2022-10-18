@@ -2,8 +2,8 @@ import { Redirect, Route } from "react-router-dom";
 import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, IonToolbar, IonFooter } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { home, gift } from "ionicons/icons";
-import Home from "../pages/Home";
-import Rewards from "../pages/Rewards";
+import Home from "../pages/home/Home";
+import Rewards from "../pages/rewards/Rewards";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";

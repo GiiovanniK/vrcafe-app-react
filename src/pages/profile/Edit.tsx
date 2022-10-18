@@ -1,7 +1,8 @@
 import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon, IonLabel, IonInput, IonItem } from "@ionic/react";
 import { personCircleOutline, qrCodeOutline, pencilOutline } from "ionicons/icons";
 import "./Edit.css";
-import MainTabs from "../components/MainTabs";
+import MainTabs from "../../components/MainTabs";
+import Modal from "../../components/modal/Modal";
 
 const Edit: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const Edit: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen className="editForm">
+      <Modal/>
         <form>
           <IonItem lines="none" color="vrcafe-main">
             <IonLabel position="stacked">Naam</IonLabel>

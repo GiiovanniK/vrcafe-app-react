@@ -1,7 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonToolbar, IonCardContent, IonCardSubtitle, IonCardTitle, IonCardHeader, IonCard } from "@ionic/react";
 import {} from "ionicons/icons";
-import "./Register.css";
-import MainTabs from "../components/MainTabs";
+import MainTabs from "../../components/MainTabs";
 
 const Rewards: React.FC = () => {
   return (

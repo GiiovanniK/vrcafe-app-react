@@ -1,8 +1,8 @@
 import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonIcon, IonAvatar, IonImg } from "@ionic/react";
 import { personCircleOutline, qrCodeOutline, peopleCircle, basket, pencilOutline, arrowForwardOutline } from "ionicons/icons";
 import "./Profile.css";
-import MainTabs from "../components/MainTabs";
-import Modal from "../components/Modal";
+import MainTabs from "../../components/MainTabs";
+import Modal from "../../components/modal/Modal";
 
 const Profile: React.FC = () => {
   return (
