@@ -1,6 +1,7 @@
 ion-avatar {
   width: 200px;
   height: 200px;
+  position: relative;
 }
 
 .badges {
@@ -55,14 +56,4 @@ ion-avatar {
   display: flex;
   justify-content: flex-end;
   width: 50%;
-}
-
-.photoUpload {
-  display: flex;
-  background-color: #000000;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
 }

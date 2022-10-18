@@ -2,6 +2,7 @@ import { IonContent, IonHeader, IonPage, IonButtons, IonButton, IonToolbar, IonI
 import { personCircleOutline, qrCodeOutline, peopleCircle, basket, pencilOutline, arrowForwardOutline, camera } from "ionicons/icons";
 import "./Profile.css";
 import MainTabs from "../components/MainTabs";
+import Modal from "../components/Modal";
 
 const Profile: React.FC = () => {
   return (
@@ -24,13 +25,9 @@ const Profile: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <div className="center">
-          <div className="photoUploadContainer">
-            <div className="photoUpload">
-              <IonIcon icon={camera}></IonIcon>
-            </div>
-          </div>
-          <IonAvatar class="modalImage ion-margin-top">
+        <Modal/>
+        <div className="center ion-margin-top">
+          <IonAvatar class="modalImage">
             <IonImg src="https://i.pravatar.cc/1000" />
           </IonAvatar>
         </div>
