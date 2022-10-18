@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { IonContent, IonIcon, IonModal, IonAvatar, IonImg } from "@ionic/react";
 import { basket, peopleCircle } from "ionicons/icons";
-
+import "./Modal.css";
 
 function Modal() {
   const modal = useRef<HTMLIonModalElement>(null);
@@ -32,6 +32,10 @@ function Modal() {
           </div>
         </div>
         <div className="qrCodeContainer ion-margin-top">
+          <div className="identifierContainer">
+            <img src="assets/images/logo.png" alt="VRcafe logo" />
+            <p>1234567890</p>
+          </div>
           <div className="qrCode"></div>
         </div>
       </IonContent>

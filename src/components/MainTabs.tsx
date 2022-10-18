@@ -1,7 +1,7 @@
 import { Redirect, Route } from "react-router-dom";
 import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, IonToolbar, IonFooter } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
-import { ellipse, triangle } from "ionicons/icons";
+import { home, gift } from "ionicons/icons";
 import Home from "../pages/Home";
 import Rewards from "../pages/Rewards";
 
@@ -38,11 +38,11 @@ const MainTabs: React.FC = () => (
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="home" href="/">
-            <IonIcon icon={triangle} />
+            <IonIcon icon={home} />
             <IonLabel>Home</IonLabel>
           </IonTabButton>
           <IonTabButton tab="rewards" href="/rewards">
-            <IonIcon icon={ellipse} />
+            <IonIcon icon={gift} />
             <IonLabel>Rewards</IonLabel>
           </IonTabButton>
         </IonTabBar>

@@ -65,7 +65,6 @@ const Register: React.FC = () => {
           </div>
         </form>
       </IonContent>
-      <MainTabs/>
     </IonPage>
   );
 };
