@@ -1,8 +1,15 @@
+import { useRef, useState } from "react";
 import { IonContent, IonHeader, IonPage, IonLabel, IonButton, IonToolbar, IonInput } from "@ionic/react";
 import {} from "ionicons/icons";
 import "./Login.css";
+import AuthService from "../../services/auth.service";
 
 const Login: React.FC = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  console.log(AuthService.login)
+
   return (
     <IonPage>
       <IonHeader>
