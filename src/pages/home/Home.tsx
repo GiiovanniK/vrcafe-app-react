@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { IonContent, IonHeader, IonPage, IonIcon, IonButton, IonToolbar, IonButtons, IonModal, IonAvatar, IonImg } from "@ionic/react";
-import { basket, peopleCircle, personCircleOutline, qrCodeOutline } from "ionicons/icons";
+import { IonContent, IonHeader, IonPage, IonIcon, IonButton, IonToolbar, IonButtons } from "@ionic/react";
+import { personCircleOutline, qrCodeOutline } from "ionicons/icons";
 import "./Home.css";
 import MainTabs from "../../components/MainTabs";
 import Modal from "../../components/modal/Modal";
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
             <img src="assets/images/logo.png" alt="VRcafe logo" />
           </div>
           <IonButtons slot="start">
-            <IonButton href="/profile">image.png
+            <IonButton href="/profile">
               <IonIcon icon={personCircleOutline} />
             </IonButton>
           </IonButtons>
