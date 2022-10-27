@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IonContent, IonHeader, IonPage, IonIcon, IonButton, IonToolbar, IonButtons } from "@ionic/react";
 import { personCircleOutline, qrCodeOutline } from "ionicons/icons";
-import "./Home.css";
+import "./Admin.css";
 import MainTabs from "../../components/MainTabs";
 import Modal from "../../components/modal/Modal";
 
@@ -43,9 +43,6 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding" color="vrcafe-white">
         <Modal />
-        <h1>
-          Goedemiddag, <br />{" "}
-        </h1>
         <div>
           {content.map((entry: Account) => (
             <p>{entry.email}</p>

@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { IonContent, IonHeader, IonPage, IonLabel, IonButton, IonToolbar, IonInput } from "@ionic/react";
 import {} from "ionicons/icons";
 import "./Login.css";
-import AuthService from "../../services/auth.service";
+import AuthService from "../../services/AuthService";
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
