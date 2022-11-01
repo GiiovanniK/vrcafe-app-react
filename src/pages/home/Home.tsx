@@ -6,6 +6,7 @@ import MainTabs from "../../components/MainTabs";
 import Modal from "../../components/modal/Modal";
 
 import UserService from "../../services/UserService";
+import Greeting from "../../components/Greeting";
 import { Account } from "../user/Types";
 
 const Home: React.FC = () => {
@@ -43,10 +44,8 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding" color="vrcafe-white">
         <Modal />
-        <h1>
-          Goedemiddag, <br />{" "}
-        </h1>
         <div>
+          <Greeting />
           {content.map((entry: Account) => (
             <p>{entry.email}</p>
           ))}
