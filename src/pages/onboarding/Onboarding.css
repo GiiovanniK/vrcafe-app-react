@@ -15,13 +15,6 @@ ion-slide {
   display: block;
 }
 
-ion-fab {
-  left: unset;
-  margin-left: unset;
-  margin-inline-start: unset;
-  bottom: 50px;
-}
-
 h1 {
   font-weight: bold !important;
 }

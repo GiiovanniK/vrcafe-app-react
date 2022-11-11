@@ -30,10 +30,12 @@ import Login from './pages/user/Login';
 import Profile from './pages/profile/Profile';
 import Edit from './pages/profile/Edit';
 import Rewards from './pages/rewards/Rewards';
+import Admin from './pages/dashboard/Admin';
+import List from './pages/dashboard/List';
 
 setupIonicReact();
 
-const App: React.FC = () => (
+const App: React.FC = () => ( 
     <IonApp>
       <IonReactRouter>
         <Route path="/" component={Home} exact={true} />
@@ -43,6 +45,8 @@ const App: React.FC = () => (
         <Route path="/profile" component={Profile} exact={true} />
         <Route path="/edit" component={Edit} exact={true} />
         <Route path="/rewards" component={Rewards} exact={true} />
+        <Route path="/admin" component={Admin} exact={true} />
+        <Route path="/list" component={List} exact={true} />
       </IonReactRouter>
     </IonApp>
   );
